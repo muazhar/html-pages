@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 <style>
+  * {
+    margin: 0;
+  }
+
+  body {
+    margin:0;
+  }
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 20px;
   overflow: hidden;
-  background-color: #333;
+  background-color: #34383E;
 }
 
 li {
@@ -23,31 +32,55 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
+  background-color: #0178F8;
 }
 
 .active {
-  background-color: #4CAF50;
+  background-color: #0178F8;
 }
 
-#goo {
-    float: left;
+.content {
+  background-color: #0178F8;
+  width: 97.599%;
+  color: aliceblue;
+  text-align: center;
+  padding: 20px;
 }
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size:60px;
+}
+
 </style>
 </head>
 <body>
 
 <ul>
-  <li >
+  <li>
       <a href="#home" >
-            <img id="goo" src="images.jpeg"  alt="">
-        <p style="margin-top:0;">Google</p>
-        </a>
+        Happy Emoji
+      </a>
     </li>
-  <li style="float:right"><a href="#news">News</a></li>
-  <li style="float:right"><a href="#contact">Contact</a></li>
+  <li style="float:right"><a href="#news">Portfolio</a></li>
   <li style="float:right"><a class="active" href="#about">About</a></li>
 </ul>
+
+<div class="content">
+  <div style="margin-left: 80px;">
+    <img src="http://www.pngonly.com/wp-content/uploads/2018/11/Emoji-PNG-Download-Transparent02.png" width="300px" alt="">
+  </div>
+  <div style="width: 300px;margin-left: 43.5%;padding-top:30px; padding-bottom: 20px; border-bottom: 1px solid aqua;">
+      <h1>emoji</h1>
+  </div>
+  <div  style="font-size: 20px;margin-top:20px; padding-left:80px;">
+    <p>Front-End Developer - Web Designer - Web Developer</p>
+  </div>
+</div>
+
+<div class="footer">
+
+</div>
 
 </body>
 </html>
