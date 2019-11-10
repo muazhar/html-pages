@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Using Flex Box</title>
+    <style>
+    
+    * {
+        margin: 0;
+    }
+
+    body {
+        background-color:#F9F9FA;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        
+    }
+
+    .navbar {
+        background-color: #FDF9F3;
+        height: 40px;
+        border-bottom: 1px solid #CAC7C2;
+        padding: 10px;
+    }
+
+    li {
+        float: right;
+    }
+    li a {
+        text-decoration: none;
+
+    }
+
+    .alpha {
+        display: block;
+        text-align: center;
+        padding: 14px 14px;
+        color: #232222;
+        border: 1px solid #232222 ;  
+        margin-left: 10px;
+        margin-top:-2.5px;
+        width:90px;
+
+    }
+
+    li a:hover:not(.active) {
+      border: 1px dashed #232222;
+    }
+
+    .active {
+        background-color: #0178F8;
+        border: 2px solid green;
+    }
+
+    #myLogo {
+        float: left;
+        padding: 0px;
+        margin:0px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .footer {
+        background-color: #FDF9F3;
+
+    }
+
+
+    </style>
+</head>
+<body>
+    <section class="navbar">
+        <ul>
+            <li id="myLogo" class="alpha active"><a href="">emoji</a></li>
+            <li class="alpha"><a href="">About</a></li>
+            <li class="alpha"><a href="">Blog</a></li>
+        </ul>
+    </section>
+    
+    <section class="content">
+        <p>A smiley face provides a quick shortcut to expressing a universal emotion. ... An emoji is a visual representation of an emotion, object or symbol. Emoji can are in modern communication apps such as your smartphone’s text messaging or social networking apps such as Facebook</p>
+    </section>
+
+    <section class="footer">
+        <p>Copyright @ Emoji Family</p>
+    </section>
+
+</body>
+</html>
